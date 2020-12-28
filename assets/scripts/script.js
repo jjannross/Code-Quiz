@@ -24,7 +24,7 @@ function startQuiz() {
   // start timer
 
   // show starting time
-
+  console.log("hello");
   getQuestion();
 }
 
@@ -137,5 +137,3 @@ submitBtn.addEventListener("click", saveHighscore);
 startBtn.addEventListener("click", startQuiz);
 
 initialsEl.addEventListener("onkeyup", checkForEnter);
-
-
